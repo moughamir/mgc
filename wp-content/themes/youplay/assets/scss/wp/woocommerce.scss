@@ -1,0 +1,101 @@
+/*------------------------------------------------------------------
+
+  WooCommerce
+
+-------------------------------------------------------------------*/
+
+/* Price filter widget */
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+  background-color: $text_color;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+  background: none;
+  background-color: $text_color;
+  border-radius: 0;
+  -webkit-transform: skew(-$skew_size);
+  transform: skew(-$skew_size);
+  width: 16px;
+  height: 16px;
+  top: -6px;
+  margin-left: -10px;
+}
+.woocommerce .widget_price_filter .ui-slider-horizontal {
+  height: 3px;
+}
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+  background-color: rgba($text_color,.2);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Forms */
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    line-height: inherit;
+}
+.woocommerce form .form-row textarea {
+    height: 100px;
+}
+.woocommerce form .form-row {
+    padding: 0;
+    margin: 0;
+}
+.woocommerce form .form-row .select2-container {
+    line-height: inherit;
+    margin-bottom: 2rem;
+}
+.select2-container .select2-choice {
+    background-color: transparent;
+    overflow: visible;
+    padding: 1rem 1.8rem;
+    color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    z-index: 1;
+}
+.select2-container .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+    border: none;
+}
+.select2-container .select2-choice:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($text_color,.1);
+    -o-transform: skew(-$skew_size);
+    transform: skew(-$skew_size);
+    transition: .3s background ease;
+}
+.youplay-input .select2-container .select2-choice:after {
+    display: none;
+}
+.select2-drop {
+    padding: 15px 10px;
+    border: none;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.1);
+}
+.youplay-input > select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    outline: 0;
+    width: 100%;
+    padding: 1rem 3.6rem 1rem 1.8rem;
+    margin: 0;
+    background: 0 0;
+    z-index: 1;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .youplay-input > select {
+        padding-right: 4rem;
+    }
+}

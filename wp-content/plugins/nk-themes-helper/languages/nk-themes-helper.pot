@@ -1,0 +1,358 @@
+# Copyright (C) 2017 nK Themes Helper
+# This file is distributed under the same license as the nK Themes Helper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: nK Themes Helper\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: _nK <https://nkdev.info>\n"
+"Language-Team: _nK <https://nkdev.info>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: dist/nk-themes-helper/class-custom-post-type.php:322, dist/nk-themes-helper/class-custom-post-type.php:323, dist/nk-themes-helper/class-custom-post-type.php:324, dist/nk-themes-helper/class-custom-post-type.php:325, dist/nk-themes-helper/class-custom-post-type.php:400, dist/nk-themes-helper/class-custom-post-type.php:401, dist/nk-themes-helper/class-custom-post-type.php:402, dist/nk-themes-helper/class-custom-post-type.php:503
+msgid "%s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:326
+msgid "Add New"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:327, dist/nk-themes-helper/class-custom-post-type.php:407
+msgid "Add New %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:328, dist/nk-themes-helper/class-custom-post-type.php:404
+msgid "Edit %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:329
+msgid "New %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:330, dist/nk-themes-helper/class-custom-post-type.php:405
+msgid "View %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:331, dist/nk-themes-helper/class-custom-post-type.php:411
+msgid "Search %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:332, dist/nk-themes-helper/class-custom-post-type.php:416
+msgid "No %s found"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:333
+msgid "No %s found in Trash"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:334, dist/nk-themes-helper/class-custom-post-type.php:410
+msgid "Parent %s:"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:403
+msgid "All %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:406
+msgid "Update %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:408
+msgid "New %s Name"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:409
+msgid "Parent %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:412
+msgid "Popular %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:413
+msgid "Seperate %s with commas"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:414
+msgid "Add or remove %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:415
+msgid "Choose from most used %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:556
+msgid "No %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:642
+msgid "Show all %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:805, dist/nk-themes-helper/class-custom-post-type.php:808, dist/nk-themes-helper/class-custom-post-type.php:810
+msgid "%s updated."
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:806, dist/nk-themes-helper/class-portfolio.php:233
+msgid "Custom field updated."
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:807, dist/nk-themes-helper/class-portfolio.php:234
+msgid "Custom field deleted."
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:809
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:811
+msgid "%s saved."
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:812
+msgid "%s submitted."
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:814
+msgid "%2$s scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:815, dist/nk-themes-helper/class-portfolio.php:244
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: dist/nk-themes-helper/class-custom-post-type.php:818
+msgid "%s draft updated."
+msgstr ""
+
+#: dist/nk-themes-helper/class-demo-importer.php:83
+msgid "Widgets import file could not be found."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:104
+msgid "Portfolio"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:105
+msgid "Portfolio Item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:106
+msgctxt "admin menu"
+msgid "Portfolio"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:107
+msgctxt "add new on admin bar"
+msgid "Portfolio Item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:108
+msgid "Add New Item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:109, dist/nk-themes-helper/class-portfolio.php:110
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:111
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:112
+msgid "View Item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:113
+msgid "All Portfolio Items"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:114
+msgid "Search Portfolio"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:115
+msgid "Parent Portfolio Item:"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:116
+msgid "No portfolio items found"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:117
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:143, dist/nk-themes-helper/class-portfolio.php:145
+msgid "Portfolio Categories"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:144
+msgid "Portfolio Category"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:146
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:147
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:148
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:149
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:150
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:151
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:152
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:153
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:154
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:155
+msgid "Separate portfolio categories with commas"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:156
+msgid "Add or remove portfolio categories"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:157
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:158
+msgid "No portfolio categories found."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:177, dist/nk-themes-helper/class-portfolio.php:179
+msgid "Portfolio Tags"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:178
+msgid "Portfolio Tag"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:180
+msgid "Edit Portfolio Tag"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:181
+msgid "Update Portfolio Tag"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:182
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:183
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:184
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:185
+msgid "Parent Portfolio Tag:"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:186
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:187
+msgid "Search Portfolio Tags"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:188
+msgid "Popular Portfolio Tags"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:189
+msgid "Separate portfolio tags with commas"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:190
+msgid "Add or remove portfolio tags"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:191
+msgid "Choose from the most used portfolio tags"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:192
+msgid "No portfolio tags found."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:209
+msgid "Thumbnail"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:232, dist/nk-themes-helper/class-portfolio.php:235
+msgid "Portfolio item updated."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:237
+msgid "Portfolio item restored to revision from %s"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:238
+msgid "Portfolio item published."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:239
+msgid "Portfolio item saved."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:240
+msgid "Portfolio item submitted."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:242
+msgid "Portfolio item scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:246
+msgid "Portfolio item draft updated."
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:253
+msgid "View portfolio item"
+msgstr ""
+
+#: dist/nk-themes-helper/class-portfolio.php:254
+msgid "Preview portfolio item"
+msgstr ""
+
+#: dist/nk-themes-helper/inc/demo-import/customizer-importer.php:41, dist/nk-themes-helper/inc/demo-import/customizer-importer.php:45
+msgid "Error importing settings! Please check that you uploaded a customizer export file."
+msgstr ""
+
+#: dist/nk-themes-helper/inc/demo-import/customizer-importer.php:49
+msgid "Error importing settings! The settings you uploaded are not for the current theme."
+msgstr ""

@@ -1,0 +1,47 @@
+<?php
+/**
+ * Single Product Image
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.0.14
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
+global $post, $woocommerce, $product;
+
+$rev_slider = yp_opts('single_product_revslider', true) && function_exists('putRevSlider');
+$rev_slider_alias = yp_opts('single_product_revslider_alias', true);
+$banner = strpos(yp_opts('single_product_layout', true), 'banner') !== false || $rev_slider;
+
+// Banner with title
+if ( $banner && has_post_thumbnail() && !$rev_slider ) {
+
+  ob_start();
+    the_title('<h1 class="h2">', '</h1>');
+    woocommerce_template_single_add_to_cart();
+  $content = ob_get_contents();
+  ob_end_clean();
+
+  echo do_shortcode('[yp_banner img_src="' . get_post_thumbnail_id( $post->ID, 'full' ) . '" img_size="1440x900" banner_size="' .  yp_opts('single_product_banner_size', true) . '" parallax="' .  yp_opts('single_product_banner_parallax', true) . '" top_position="true" class="youplay-banner-store-main"]' . $content . '[/yp_banner]');
+?>
+
+<?php } else if(!$rev_slider) {
+  the_title('<h1 class="container">', '</h1>');
+  ?>
+
+  <div class="container"><?php woocommerce_template_single_add_to_cart(); ?></div>
+
+  <?php
+} else {
+  putRevSlider($rev_slider_alias);
+  ?>
+  <div class="container"><?php woocommerce_template_single_add_to_cart(); ?></div>
+  <?php
+}
+
+do_action( 'woocommerce_product_thumbnails' );
+?>
